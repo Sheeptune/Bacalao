@@ -1,0 +1,135 @@
+
+/* NAVS */
+.body {
+    position: relative;
+    z-index: 1;
+}
+
+.switch {
+    /* padding-left: 3em; */
+    top: 200px;
+    left: 50px;
+    position: fixed;
+    z-index: 100;
+}
+
+.switch ul {
+    list-style-type: none;
+    background-color: rgba(0, 0, 0, 0.644);
+    display: block;
+    padding: 6px 9px;
+    border-radius: 20px;
+}
+
+.switch ul li.nav-item a{
+    color: #fff;
+    margin: 5px 0;
+    width: 24px;
+    height: 24px;
+    border-radius:12px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    box-sizing: border-box;
+}
+
+.switch ul li.nav-item a{
+    color: #fff;
+    margin: 5px 0;
+    width: 24px;
+    height: 24px;
+    border-radius:12px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.switch ul li.nav-item.active, a:hover {
+    border: 2px solid #fff;
+    transform-style: scale(1);
+    opacity: 1;
+}
+
+/* INTRO */
+
+.container {
+    margin-top: 3em;
+    margin-bottom: 3em;
+    padding-top: 2em;
+    padding-bottom: 2em;
+}
+
+.container-fluid#intro{
+    background-color: rgb(218, 216, 216);
+    padding-top: 7em;
+    padding-bottom: 4em;
+}
+
+.container-fluid#intro h1 {
+    font-size: 4em;
+}
+
+.container-fluid#intro p {
+    padding-top: 3em;
+}
+
+/* APPETENCES */
+
+
+.container#appetences h5.quotation {
+    font-size: 1.3em;
+}
+
+.container#appetences p.quotation {
+    padding-bottom: 5em;
+}
+
+.whoami {
+    display: flex;
+    justify-content: center;
+}
+
+.whoami h1{
+    padding-top: 1em;
+}
+
+.whoami p{
+    padding-bottom: 1.6em;
+    line-height: 2em;
+}
+
+.col-lg-5.illustration {
+    background-color: rgb(51, 51, 54);
+}
+
+.approche {
+    display: flex;
+    justify-content: center;
+    padding-top: 2em;
+    padding-bottom: 2em;
+}
+
+.memo {
+    display: flex;
+    justify-content: center;
+}
+
+p.smallfont {
+    font-size: 0.8em;
+    line-height: 0.5em;
+}
+
+.approche .col-lg-10{
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+}
+
+.methode{
+    width: 193.75 px;
+    height: 163.2 px;
+}
+
+
+
