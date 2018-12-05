@@ -62,10 +62,6 @@ li.nav-item a.active {
     font-size: 1.3em;
 }
 
-.container#appetences p.quotation {
-    padding-bottom: 5em;
-}
-
 .whoami {
 }
 
@@ -78,11 +74,10 @@ li.nav-item a.active {
     line-height: 2em;
 }
 
-.col-lg-5.illustration {
+.illustration {
     background-color: rgb(51, 51, 54);
 }
 
 p.smallfont {
     font-size: 0.8em;
-    line-height: 0.5em;
 }
