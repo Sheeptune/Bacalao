@@ -1,12 +1,6 @@
 
 /* NAVS */
-.body {
-    position: relative;
-    z-index: 1;
-}
-
 .switch {
-    /* padding-left: 3em; */
     top: 200px;
     left: 50px;
     position: fixed;
@@ -53,25 +47,12 @@ li.nav-item a.active {
 
 /* INTRO */
 
-.container {
-    margin-top: 3em;
-    margin-bottom: 3em;
-    padding-top: 2em;
-    padding-bottom: 2em;
-}
-
 .container-fluid#intro{
     background-color: rgb(218, 216, 216);
-    padding-top: 7em;
-    padding-bottom: 4em;
 }
 
 .container-fluid#intro h1 {
     font-size: 4em;
-}
-
-.container-fluid#intro p {
-    padding-top: 3em;
 }
 
 /* APPETENCES */
@@ -86,8 +67,6 @@ li.nav-item a.active {
 }
 
 .whoami {
-    display: flex;
-    justify-content: center;
 }
 
 .whoami h1{
@@ -103,33 +82,7 @@ li.nav-item a.active {
     background-color: rgb(51, 51, 54);
 }
 
-.approche {
-    display: flex;
-    justify-content: center;
-    padding-top: 2em;
-    padding-bottom: 2em;
-}
-
-.memo {
-    display: flex;
-    justify-content: center;
-}
-
 p.smallfont {
     font-size: 0.8em;
     line-height: 0.5em;
 }
-
-.approche .col-lg-10{
-    display: flex;
-    justify-content: center;
-    justify-content: space-between;
-}
-
-.methode{
-    width: 193.75 px;
-    height: 163.2 px;
-}
-
-
-
