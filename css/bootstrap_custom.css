@@ -4,7 +4,6 @@
     top: 200px;
     left: 50px;
     position: fixed;
-    z-index: 100;
 }
 
 .switch ul {
@@ -24,6 +23,23 @@
 .switch ul li.nav-item {
     margin: 5px 5px;
     box-sizing: content-box;
+}
+
+.sharebar {
+    position: fixed;
+    top: 300px;
+    right: 50px;
+}
+
+.sharebar a {
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    line-height: 30px;
+    display: block;
+    border-radius: 100%;
+    background-color: rgba(0, 0, 0, 0.644);
+    color: #eee;
 }
 
 /* we do this to avoid resizing of a.nav-link's height
