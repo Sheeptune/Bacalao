@@ -1,26 +1,80 @@
+body {
+    scroll-behavior: smooth
+}
 
 /* NAVS */
-.switch {
+#navbars {
+    z-index: 100;
+}
+
+.switch-sm {
+    display: none;
+}
+
+#hamburger-button { 
+    display:none ;
+}
+
+@media (max-width:576px) {
+    .switch-lg, .sharebar {
+        display: none;
+    }
+
+    .switch-sm {
+        display: block;
+        position: absolute;
+        top: 0; left: 0;
+        width: 100%;
+    }
+
+    .switch-sm label {
+        font-size: 1.5em;
+        padding: 5px;
+        color: white;
+    }
+    .switch-sm ul {
+        transform: translateX(calc(-100% - 5px));
+    }
+
+    .switch-sm input[type="checkbox"]:checked ~ ul {
+        display: flex;
+        position: fixed;
+        top: 0; left: 0;
+        height: 100vh;
+        width: 100vw;
+        color: white;
+        transform: translateX(0);
+        transition: all 1s ease-in-out;
+        background-color: black;
+        list-style: none;
+        z-index: 100;
+    }
+}
+
+.switch-lg {
     top: 200px;
     left: 50px;
     position: fixed;
 }
 
-.switch ul {
+.switch-lg ul, .switch-sm ul {
     background-color: rgba(0, 0, 0, 0.644);
     padding: 6px 9px;
-    border-radius: 20px;
-    display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
 }
 
-.switch ul li {
+.switch-lg ul {
+    border-radius: 20px;
+    display: flex;
+}
+
+.switch-lg ul li {
     display: block;
 }
 
-.switch ul li.nav-item {
+.switch-lg ul li.nav-item {
     margin: 5px 5px;
     box-sizing: content-box;
 }

@@ -9,15 +9,16 @@
     <link rel="stylesheet" href="./css/fontawesome.css">
     <script src="./js/jquery-3.3.1.min.js"></script>
     <script src="./js/bootstrap.js"></script>
+    <script scr="./js/zenscroll-min.js" defer></script>
     <script src="./js/switch-nav.js" defer></script>
     <title>Homepage</title>
-    <link rel="icon" href="img/png/sheep.png"><!--- icon from https://www.flaticon.com -->
+    <link rel="icon" href="img/svg/sheep.svg"><!--- icon from https://www.flaticon.com -->
 </head>
 
 <body>
     <main>
-        <div class="navbars">
-            <nav class="switch" id="navmenu">
+        <div id="navbars">
+            <nav class="switch-lg" id="navmenu">
                 <ul>
                     <li class="nav-item"><a class="nav-link active" href="#intro">•</a></li>
                     <li class="nav-item"><a class="nav-link" href="#appetences">•</a></li>
@@ -26,7 +27,23 @@
                     <li class="nav-item"><a class="nav-link" href="#personality">•</a></li>
                 </ul>
             </nav>
-            
+            <nav class="switch-sm">
+                <input type="checkbox" id="hamburger-button">
+                <label for="hamburger-button">&#9776;</label>
+                <ul>
+                    <h1>SHEEPTUNE</h1>
+                    <li class="nav-item"><a class="nav-link active" href="#intro">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#appetences">Appétences</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#skills">Compétences</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#timeline">Timeline</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#personality">Personnalité</a></li>
+                    <li class="nav-item">                
+                        <a class="m-1" href="https://www.linkedin.com/in/gwenaellelohard/"><i class="fab fa-linkedin-in"></i></a>
+                        <a class="m-1" href="https://github.com/Sheeptune/Bacalao"><i class="fab fa-github"></i></a>
+                        <a class="m-1" href=""><i class="fab fa-deviantart"></i></a>
+                    </li>
+                </ul>                
+            </nav>
             <nav class="sharebar shareimg hide-for-small">
                 <a class="m-1" href="https://www.linkedin.com/in/gwenaellelohard/"><i class="fab fa-linkedin-in"></i></a>
                 <a class="m-1" href="https://github.com/Sheeptune/Bacalao"><i class="fab fa-github"></i></a>

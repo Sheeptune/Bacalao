@@ -1,7 +1,7 @@
-var nav = document.querySelector("#navmenu");
+var nav = document.querySelector("#navbars");
 var navItems = nav.querySelectorAll(".nav-link");
+var hamburgerButton = nav.querySelector("#hamburger-button");
 console.log(navItems);
-
 // We add an event listener for each nav-item
 navItems.forEach(function(navItem) {
     navItem.addEventListener("click",activateItem);
@@ -17,4 +17,6 @@ function activateItem(event) {
     // Then we add the "active" class to the one that got clicked
     navItem.className += " active";
 
+    console.log(hamburgerButton);
+    hamburgerButton.checked = false;
 }
